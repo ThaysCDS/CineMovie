@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Filme</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content background>
+  <ion-col>
+    <h2 h2>{{filme.original_title}}</h2>
+    <p p class="p">{{filme.release_date}}</p>
+  </ion-col>
+  <div divv>
+    <img imgg [src]="'https://image.tmdb.org/t/p/original/'+filme.poster_path">
+  </div>
+  <div divBorder>
+    <button btn ion-button icon-start clear small align-self-center text-center>
+      <ion-icon name="star"></ion-icon>
+      <div (click)="addFavoritos(filme)">{{isFavorito(filme.id) ? 'Remover' : 'Adicionar'}} à favoritos</div>
+    </button>
+  </div>
+  <div divPop>
+    <p>Popularidade: {{filme.popularity}}</p>
+  </div>
+  <div>
+    <p overview>{{filme.overview}}</p>
+  </div>
+
+</ion-content>

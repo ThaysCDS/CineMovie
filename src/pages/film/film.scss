@@ -1,0 +1,53 @@
+[h2]{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    color: #d585aa;
+}
+
+[p]{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 10px;
+    color: #d585aa;
+}
+
+[divv]{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+[imgg]{
+    width: 60%;
+}
+
+[divBorder]{
+    display: flex;
+    justify-content: center;
+}
+
+[btn]{
+    background-color: #d7d7d76b;
+    height: 40px;
+    width: 60%;
+}
+
+[overview]{
+    margin: 6%;
+    text-align: justify;
+}
+
+[divPop]{
+    display: flex;
+    justify-content: center;
+    color: #d585aa;
+}
+
+.item-ios h2{
+    font-size: 1.5rem;
+}
+.toolbar-background-ios {
+    background: #ac718c;
+}
